@@ -1,3 +1,86 @@
 body {
     font-family: 'Segoe UI', sans-serif;
 }
+
+header a {
+    font-weight: 200;
+}
+
+.header-top__nav {
+    margin-right: 50px;
+}
+
+.header-top__socials:after {
+    display: none;
+}
+
+.header-top__number {
+    max-width: 140px;
+}
+
+.header-top__socials:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    display: block;
+    background-color: rgba(39,39,39,.4);
+    width: 1px;
+    height: 26.5px;
+}
+
+.header-body__logo {
+    width: 211px;
+    padding: 0 0 0 15px;
+    margin-right: 21px;
+}
+
+.header-body__item img {
+    min-width: 24px;
+}
+
+.burger-menu {
+    background: none ;
+    border: 1px solid #FF0000;
+    padding: 10.5px 42.5px;
+}
+
+.burger-menu__text {
+    color: #FF0000;
+}
+
+.burger-menu__line::before {
+    background-color: #FF0000;
+}
+
+.burger-menu__line::after{
+    background-color: #FF0000;
+}
+
+.burger-menu__line span {
+    background-color: #FF0000;
+}
+
+.search__btn {
+    background: none;
+    border: 1px solid #A9A9A9;
+}
+
+.header-body__right {
+    align-items: center;
+}
+
+.header-body__left {
+    margin-right: 24px;
+}
+
+.header-body__item .cnt {
+    top: -7px;
+}
+
+.header-body__item:not(:last-child) {
+    margin-right: 35px;
+}
+
