@@ -2,6 +2,10 @@ body {
     font-family: 'Segoe UI', sans-serif;
 }
 
+.header {
+    background: none;
+}
+
 header a {
     font-weight: 200;
 }
@@ -16,6 +20,10 @@ header a {
 
 .header-top__number {
     max-width: 140px;
+}
+
+.header-top__socials {
+    margin-right: 12px;
 }
 
 .header-top__socials:before {
@@ -47,8 +55,16 @@ header a {
     padding: 10.5px 42.5px;
 }
 
+.burger-menu:hover {
+    background: #FF0000;
+}
+
 .burger-menu__text {
     color: #FF0000;
+}
+
+.burger-menu__text:hover {
+    color: #FFFFFF;
 }
 
 .burger-menu__line::before {
@@ -59,9 +75,20 @@ header a {
     background-color: #FF0000;
 }
 
+.burger-menu__line::before:hover {
+    background-color: #FFFFFF;
+}
+
+.burger-menu__line::after:hover{
+    background-color:  #FFFFFF;
+}
+
 .burger-menu__line span {
     background-color: #FF0000;
 }
+
+
+
 
 .search__btn {
     background: none;

@@ -11,12 +11,45 @@
             crossorigin="anonymous"></script>
     <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
     <link href="https://tramontana.ru/bitrix/cache/css/s1/tramontana2022/page_3aaf59f4fa346bca86996383798d282a/page_3aaf59f4fa346bca86996383798d282a_v1.css?16895927016332" type="text/css"  rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link href="https://tramontana.ru/bitrix/cache/css/s1/tramontana2022/template_55624e6857db2c33c62a261485ddd957/template_55624e6857db2c33c62a261485ddd957_v1.css?1689592683415628" type="text/css"  data-template-style="true" rel="stylesheet" />
     <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=PT+Sans'>
 <!--    <link href="https://tramontana.ru/templates/tramontana2022/css/intlTelInput/intlTelInput.css?1689700707" rel="stylesheet"/>-->
 <!--    <link rel="stylesheet" href="https://tramontana.ru/templates/tramontana2022/js/easyzoom/easyzoom.css?1689700707" />-->
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style-header.css">
+    <link rel="stylesheet" href="./css/style-banner.css">
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+        }
+
+        .swiper-slide .banner {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .swiper-slide {
+            width: 76%;
+        }
+    </style>
 </head>
 <body>
 <header class="header">
@@ -67,7 +100,7 @@
                         </a>
                     </li>
                 </ul>
-                <div class="col-lg-auto col-sm-2 header-top__number">
+                <div class="col-lg-1 col-sm-2 header-top__number">
                     <a class="header-top__number-link" href="tel:88005006208">8 800 500-62-08</a>
                 </div>
             </div>
@@ -118,5 +151,375 @@
         </div>
     </div>
 </header>
+<section class="main-banner">
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="banner">
+                    <div class="banner-content">
+                        <div class="banner-content__wrapper">
+                            <style scoped>
+                                .banner-content__photo.photo_brand_arcteryx {
+                                    background-image: url("images/main-photo.jpg");
+                                }
+
+                                @media (max-width: 640px) {
+                                    .banner-content__photo.photo_brand_arcteryx {
+                                        background-image: url("images/main-photo-mobile.jpg");
+                                    }
+                                }
+                            </style>
+                            <div class="banner-content__photo photo_brand_arcteryx">
+                                <div class="banner-content__sale">
+                                    <p class="banner-content__sale-text">Sale</p>
+                                </div>
+                            </div>
+                            <div class="banner-content__description">
+                                <div class="description__wrapper">
+                                    <div class="description__text">
+                                        <h2>Arc'teryx</h2>
+                                        <p>Компания Arc'teryx была основана в Канаде как
+                                            производитель высокотехнологичной
+                                            экипировки и снаряжения для
+                                            экстремальных условий</p>
+                                    </div>
+                                    <div class="description__logo">
+                                        <img src="images/logo.png" alt="logo">
+                                    </div>
+                                </div>
+                                <div class="description__link">
+                                    <a href="#"><span>Перейти в каталог</span>
+                                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                             viewBox="0 0 25 25" fill="none">
+                                            <path d="M9.375 21.6912L15.625 15.4412L9.375 9.19116" stroke="black"
+                                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner-content__gallery">
+                            <ul class="gallery">
+                                <li class="gallery__item">
+                                    <div class="gallery__wrap-img">
+                                        <img class="gallery__img" src="images/Rectangle%2027.jpg" alt="photo1">
+                                    </div>
+                                    <div class="gallery__properties">
+                                        <p class="gallery__text">Современные
+                                            материалы</p>
+                                    </div>
+                                </li>
+                                <li class="gallery__item">
+                                    <div class="gallery__wrap-img">
+                                        <img class="gallery__img" src="images/Rectangle%2025%20.jpg" alt="photo2">
+                                    </div>
+                                    <div class="gallery__properties">
+                                        <p class="gallery__text">Внимание к
+                                            деталям</p>
+                                    </div>
+                                </li>
+                                <li class="gallery__item">
+                                    <div class="gallery__wrap-img">
+                                        <img class="gallery__img" src="images/Rectangle%2016.jpg" alt="photo3">
+                                    </div>
+                                    <div class="gallery__properties">
+                                        <p class="gallery__text">Премиум
+                                            качество</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="banner">
+                    <div class="banner-content">
+                        <div class="banner-content__wrapper">
+                            <style scoped>
+                                .banner-content__photo.photo_brand_bask {
+                                    background-image: url("images/bask.png");
+                                }
+
+                                @media (max-width: 640px) {
+                                    .banner-content__photo.photo_brand_bask {
+                                        background-image: url("images/bask-mobile.jpg");
+                                    }
+                                }
+                            </style>
+                            <div class="banner-content__photo photo_brand_bask">
+                                <div class="banner-content__sale">
+                                    <p class="banner-content__sale-text">Sale</p>
+                                </div>
+                            </div>
+                            <div class="banner-content__description">
+                                <div class="description__wrapper">
+                                    <div class="description__text">
+                                        <h2>Arc'teryx</h2>
+                                        <p>Компания Arc'teryx была основана в Канаде как
+                                            производитель высокотехнологичной
+                                            экипировки и снаряжения для
+                                            экстремальных условий</p>
+                                    </div>
+                                    <div class="description__logo">
+                                        <img src="images/logo.png" alt="logo">
+                                    </div>
+                                </div>
+                                <div class="description__link">
+                                    <a href="#"><span>Перейти в каталог</span>
+                                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                             viewBox="0 0 25 25" fill="none">
+                                            <path d="M9.375 21.6912L15.625 15.4412L9.375 9.19116" stroke="black"
+                                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner-content__gallery">
+                            <ul class="gallery">
+                                <li class="gallery__item">
+                                    <div class="gallery__wrap-img">
+                                        <img class="gallery__img" src="images/Rectangle%2027.jpg" alt="photo1">
+                                    </div>
+                                    <div class="gallery__properties">
+                                        <p class="gallery__text">Современные
+                                            материалы</p>
+                                    </div>
+                                </li>
+                                <li class="gallery__item">
+                                    <div class="gallery__wrap-img">
+                                        <img class="gallery__img" src="images/Rectangle%2025%20.jpg" alt="photo2">
+                                    </div>
+                                    <div class="gallery__properties">
+                                        <p class="gallery__text">Внимание к
+                                            деталям</p>
+                                    </div>
+                                </li>
+                                <li class="gallery__item">
+                                    <div class="gallery__wrap-img">
+                                        <img class="gallery__img" src="images/Rectangle%2016.jpg" alt="photo3">
+                                    </div>
+                                    <div class="gallery__properties">
+                                        <p class="gallery__text">Премиум
+                                            качество</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="banner">
+                    <div class="banner-content">
+                        <div class="banner-content__wrapper">
+                            <style scoped>
+                                .banner-content__photo.photo_brand_tnf {
+                                    background-image: url("images/tnf.jpg");
+                                }
+
+                                @media (max-width: 640px) {
+                                    .banner-content__photo.photo_brand_tnf {
+                                        background-image: url("images/tnf-mobile.jpg");
+                                    }
+                                }
+                            </style>
+                            <div class="banner-content__photo photo_brand_tnf">
+                                <div class="banner-content__sale">
+                                    <p class="banner-content__sale-text">Sale</p>
+                                </div>
+                            </div>
+                            <div class="banner-content__description">
+                                <div class="description__wrapper">
+                                    <div class="description__text">
+                                        <h2>Arc'teryx</h2>
+                                        <p>Компания Arc'teryx была основана в Канаде как производитель
+                                            высокотехнологичной экипировки и снаряжения для экстремальных
+                                            в оплате статьи или отправке на доработку</p>
+                                    </div>
+                                    <div class="description__logo">
+                                        <img src="images/logo.png" alt="logo">
+                                    </div>
+                                </div>
+                                <div class="description__link">
+                                    <a href="#"><span>Перейти в каталог</span>
+                                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                             viewBox="0 0 25 25" fill="none">
+                                            <path d="M9.375 21.6912L15.625 15.4412L9.375 9.19116" stroke="black"
+                                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner-content__gallery">
+                            <ul class="gallery">
+                                <li class="gallery__item">
+                                    <div class="gallery__wrap-img">
+                                        <img class="gallery__img" src="images/Rectangle%2027.jpg" alt="photo1">
+                                    </div>
+                                    <div class="gallery__properties">
+                                        <p class="gallery__text">Современные
+                                            материалы</p>
+                                    </div>
+                                </li>
+                                <li class="gallery__item">
+                                    <div class="gallery__wrap-img">
+                                        <img class="gallery__img" src="images/Rectangle%2025%20.jpg" alt="photo2">
+                                    </div>
+                                    <div class="gallery__properties">
+                                        <p class="gallery__text">Внимание к
+                                            деталям</p>
+                                    </div>
+                                </li>
+                                <li class="gallery__item">
+                                    <div class="gallery__wrap-img">
+                                        <img class="gallery__img" src="images/Rectangle%2016.jpg" alt="photo3">
+                                    </div>
+                                    <div class="gallery__properties">
+                                        <p class="gallery__text">Премиум
+                                            качество</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="banner">
+                    <div class="banner-content">
+                        <div class="banner-content__wrapper">
+                            <div class="banner-content__photo">
+                                <div class="banner-content__sale">
+                                    <p class="banner-content__sale-text">Sale</p>
+                                </div>
+                            </div>
+                            <div class="banner-content__description">
+                                <div class="description__wrapper">
+                                    <div class="description__text">
+                                        <h2>Arc'teryx</h2>
+                                        <p>Компания Arc'teryx была основана в Канаде как производитель
+                                            высокотехнологичной экипировки
+                                            и снаряжения для экстремальных условий</p>
+                                    </div>
+                                    <div class="description__logo">
+                                        <img src="images/logo.png" alt="logo">
+                                    </div>
+                                </div>
+                                <div class="description__link">
+                                    <a href="#"><span>Перейти в каталог</span>
+                                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                             viewBox="0 0 25 25" fill="none">
+                                            <path d="M9.375 21.6912L15.625 15.4412L9.375 9.19116" stroke="black"
+                                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner-content__gallery">
+                            <ul class="gallery">
+                                <li class="gallery__item">
+                                    <div class="gallery__wrap-img">
+                                        <img class="gallery__img" src="images/Rectangle%2027.jpg" alt="photo1">
+                                    </div>
+                                    <div class="gallery__properties">
+                                        <p class="gallery__text">Современные
+                                            материалы</p>
+                                    </div>
+                                </li>
+                                <li class="gallery__item">
+                                    <div class="gallery__wrap-img">
+                                        <img class="gallery__img" src="images/Rectangle%2025%20.jpg" alt="photo2">
+                                    </div>
+                                    <div class="gallery__properties">
+                                        <p class="gallery__text">Внимание к
+                                            деталям</p>
+                                    </div>
+                                </li>
+                                <li class="gallery__item">
+                                    <div class="gallery__wrap-img">
+                                        <img class="gallery__img" src="images/Rectangle%2016.jpg" alt="photo3">
+                                    </div>
+                                    <div class="gallery__properties">
+                                        <p class="gallery__text">Премиум
+                                            качество</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next">
+            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="arrow-right 2">
+                    <path id="Vector" d="M9.375 21.6912L15.625 15.4412L9.375 9.19116" stroke="black" stroke-width="1.5"
+                          stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+            </svg>
+        </div>
+        <div class="swiper-button-prev">
+            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="arrow-right 2">
+                    <path id="Vector" d="M15.625 21.6912L9.375 15.4412L15.625 9.19116" stroke="black" stroke-width="1.5"
+                          stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+            </svg>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: "auto",
+            centeredSlides: true,
+            spaceBetween: 30,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            speed: 1000,
+            loop: true,
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: "1",
+                    spaceBetween: 0,
+                },
+                640: {
+                    slidesPerView: "1",
+                    spaceBetween: 0,
+                },
+                1200: {
+                    slidesPerView: "1",
+                    spaceBetween: 0,
+                },
+                // when window width is >= 640px
+                1400: {
+                    slidesPerView: "auto",
+                    spaceBetween: 24,
+                },
+                // when window width is >= 640px
+
+            },
+
+        })
+
+    </script>
+</section>
 </body>
 </html>
