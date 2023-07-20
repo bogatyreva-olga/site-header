@@ -11,19 +11,15 @@ header a {
 }
 
 .header-top__nav {
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 .header-top__socials:after {
     display: none;
 }
 
-.header-top__number {
-    max-width: 140px;
-}
-
-.header-top__socials {
-    margin-right: 12px;
+.header-top__socials li:last-child{
+    margin-right: 20px;
 }
 
 .header-top__socials:before {
@@ -122,4 +118,11 @@ header a {
     .header {
         display: none;
     }
+}
+
+
+.text {
+    margin: 0 auto;
+    max-width: 1400px;
+    margin-top: 50px;
 }
