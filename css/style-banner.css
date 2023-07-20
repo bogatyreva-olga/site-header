@@ -53,7 +53,6 @@ a {
     position: relative;
 }
 
-
 .banner-content__photo {
     background-position: center;
     background-size: cover;
@@ -383,11 +382,17 @@ max-width: inherit;
 @media (max-width: 640px) {
     .swiper {
         height: 343px;
+        width: calc(100% - 30px);
+        border-radius: 5px;
     }
 
     .banner {
         height: 100%;
         background: none;
+    }
+
+    .banner-content__photo {
+        background-size: cover;
     }
 
     .banner-content__gallery {
@@ -396,14 +401,6 @@ max-width: inherit;
 
     .description__logo {
         display: none;
-    }
-
-    .banner-content__photo {
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 343px;
-        object-fit: cover;
     }
 
     .description__link {
@@ -420,7 +417,7 @@ max-width: inherit;
         display: flex;
         justify-content: end;
         align-items: center;
-        margin-left: calc(100% - 45px);
+        transform: translateX(45px);
     }
 
     .banner-content__sale-text {
