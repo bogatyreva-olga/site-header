@@ -3,7 +3,7 @@ function scrollToUp() {
     let eScroll = 196;
 
     window.addEventListener("scroll", (evt) => {
-        if (scrollY >= eScroll) {
+        if (scrollY >= eScroll ) {
             mobileMenuTop.classList.add("white-mobile-menu")
         } else {
             mobileMenuTop.classList.remove("white-mobile-menu")

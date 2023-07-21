@@ -10,8 +10,18 @@ header a {
     font-weight: 200;
 }
 
+.header-body__top {
+    align-items: center;
+}
+
 .header-top__nav {
     margin-right: 30px;
+}
+
+.header-top-contact {
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
 
 .header-top__socials:after {
@@ -140,10 +150,25 @@ header a {
 
 }
 
+@media (max-width: 1300px) {
+    .header-top__item a,
+    .header-top__link {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 998px) {
+    .header-body__left {
+        margin: 0;
+    }
+}
+
+
 @media (max-width: 1200px) {
-  .header-body {
-      padding: 10px 0;
-  }
+    .header-body {
+        padding: 10px 0;
+    }
 
     .header-body__logo {
         display: none;
