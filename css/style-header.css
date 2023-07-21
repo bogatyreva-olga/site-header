@@ -126,12 +126,14 @@ header a {
 }
 
 @media (max-width: 1400px) {
-    .header-body__logo {
-        display: none;
-    }
-
     .header-top__nav {
         margin-right: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header-body__logo {
+        display: none;
     }
 }
 
