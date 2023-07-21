@@ -91,7 +91,14 @@
         overflow: hidden;
         z-index: 999;
         /*background: #F43636;*/
+    }
 
+    .red-mobile-menu {
+        background-color: #F43636;
+    }
+
+    .white-mobile-menu {
+        background-color: #FFFFFF;
     }
 
     .mobile-menu__wrapper {

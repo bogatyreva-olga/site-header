@@ -88,6 +88,15 @@ header a {
     border: 1px solid #A9A9A9;
 }
 
+.search__btn:hover {
+    background-color: inherit;
+    color: #FF0000;
+}
+
+.search__btn:hover svg path{
+    stroke: #FF0000;
+}
+
 .header-body__right {
     align-items: center;
 }
