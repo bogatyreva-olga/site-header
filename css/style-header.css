@@ -63,6 +63,10 @@ header a {
     color: #FFFFFF;
 }
 
+.socials__item svg:hover {
+    fill: none;
+}
+
 .burger-menu__line::before {
     background-color: #FF0000;
 }

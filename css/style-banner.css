@@ -69,12 +69,19 @@ a {
 .banner-content__sale {
     position: absolute;
     border-radius: 0 0 5px 5px;
-    background: #FF0000;
-    opacity: 0.6;
     width: 124px;
     height: 401px;
     margin-left: 90px;
     display: flex;
+}
+
+.banner-content__sale:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #FF0000;
+    opacity: 0.6;
+    position: absolute;
 }
 
 .banner-content__sale-text {
@@ -88,6 +95,7 @@ a {
     text-transform: uppercase;
     margin: 41px auto 0;
     text-align: start;
+    z-index: 100;
 }
 
 .banner-content__text-wrap {
