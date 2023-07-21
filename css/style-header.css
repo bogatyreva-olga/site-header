@@ -145,7 +145,6 @@ header a {
       padding: 10px 0;
   }
 
-
     .header-body__logo {
         display: none;
     }
@@ -153,8 +152,6 @@ header a {
     .header-body__logo-sm {
         display: block;
     }
-
-
 
 }
 
