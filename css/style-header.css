@@ -133,9 +133,19 @@ header a {
     .header-top__nav {
         margin-right: 0;
     }
+
+    .header-top__item {
+        margin-right: 20px;
+    }
+
 }
 
 @media (max-width: 1200px) {
+  .header-body {
+      padding: 10px 0;
+  }
+
+
     .header-body__logo {
         display: none;
     }
@@ -144,9 +154,6 @@ header a {
         display: block;
     }
 
-    .header-top__item {
-        margin-right: 20px;
-    }
 
 
 }

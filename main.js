@@ -8,7 +8,6 @@ function scrollToUp() {
         } else {
             mobileMenuTop.classList.remove("white-mobile-menu")
         }
-
     })
 }
 
