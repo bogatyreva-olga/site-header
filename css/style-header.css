@@ -41,6 +41,10 @@ header a {
     margin-right: 21px;
 }
 
+.header-body__logo-sm {
+    display: none;
+}
+
 .header-body__item img {
     min-width: 24px;
 }
@@ -97,7 +101,7 @@ header a {
     color: #FF0000;
 }
 
-.search__btn:hover svg path{
+.search__btn:hover svg path {
     stroke: #FF0000;
 }
 
@@ -135,6 +139,16 @@ header a {
     .header-body__logo {
         display: none;
     }
+
+    .header-body__logo-sm {
+        display: block;
+    }
+
+    .header-top__item {
+        margin-right: 20px;
+    }
+
+
 }
 
 @media (max-width: 640px) {
@@ -148,3 +162,4 @@ header a {
     max-width: 1400px;
     padding: 0 15px;
 }
+
