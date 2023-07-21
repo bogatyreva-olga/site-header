@@ -18,7 +18,7 @@ header a {
     display: none;
 }
 
-.header-top__socials li:last-child{
+.header-top__socials li:last-child {
     margin-right: 20px;
 }
 
@@ -120,9 +120,8 @@ header a {
     }
 }
 
-
 .text {
-    margin: 0 auto;
+    margin: 50px auto;
     max-width: 1400px;
-    margin-top: 50px;
+    padding: 0 15px;
 }
