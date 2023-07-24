@@ -69,18 +69,12 @@ header a {
     color: #FF0000;
 }
 
-.burger-menu:hover,
-.burger-menu__text:hover {
+.burger-menu:hover {
     background: #FF0000;
+}
+
+.burger-menu:hover .burger-menu__text {
     color: #FFFFFF;
-}
-
-.socials__item svg:hover {
-    fill: none;
-}
-
-.burger-menu__line span {
-    background-color: #FF0000;
 }
 
 .burger-menu__line::after {
@@ -91,17 +85,29 @@ header a {
     background-color: #FF0000;
 }
 
-.burger-menu__line:hover:before {
+.burger-menu__line span {
+    background-color: #FF0000;
+}
+
+.burger-menu:hover .burger-menu__line span {
+    background-color:  #FFFFFF;
+}
+
+.burger-menu:hover .burger-menu__line:before {
     background-color: #FFFFFF;
 }
 
-.burger-menu__line:hover:after {
+.burger-menu:hover .burger-menu__line:after {
     background-color: #FFFFFF;
 }
 
 .search__btn {
     background: none;
     border: 1px solid #A9A9A9;
+}
+
+.socials__item svg:hover {
+    fill: none;
 }
 
 .search__btn:hover {
