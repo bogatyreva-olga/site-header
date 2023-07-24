@@ -21,7 +21,7 @@ header a {
 .header-top-contact {
     display: flex;
     align-items: center;
-    gap: 24px;
+    flex-grow: 1;
 }
 
 .header-top__socials:after {
@@ -29,7 +29,7 @@ header a {
 }
 
 .header-top__socials li:last-child {
-    margin-right: 20px;
+    margin-right: 35px;
 }
 
 .header-top__socials:before {
