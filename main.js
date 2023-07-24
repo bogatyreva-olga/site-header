@@ -9,6 +9,9 @@ function scrollToUp() {
         }
         if (scrollY >= eScroll || path !== "/") {
             mobileMenuTop.classList.add("white-mobile-menu")
+        } else {
+            mobileMenuTop.classList.remove("white-mobile-menu");
+            mobileMenuTop.classList.add("red-mobile-menu")
         }
     })
 }
