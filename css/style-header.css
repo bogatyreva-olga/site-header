@@ -65,11 +65,15 @@ header a {
     padding: 10.5px 42.5px;
 }
 
+.burger-menu__text {
+    color: #FF0000;
+}
+
 .burger-menu:hover {
     background: #FF0000;
 }
 
-.burger-menu__text {
+.burger-menu, .burger-menu__text:hover {
     color: #FF0000;
 }
 
@@ -81,7 +85,7 @@ header a {
     fill: none;
 }
 
-.burger-menu__line::before {
+.burger-menu__line span {
     background-color: #FF0000;
 }
 
@@ -89,16 +93,16 @@ header a {
     background-color: #FF0000;
 }
 
-.burger-menu__line::before:hover {
-    background-color: #FFFFFF;
-}
-
-.burger-menu__line::after:hover {
-    background-color: #FFFFFF;
-}
-
-.burger-menu__line span {
+.burger-menu__line::before {
     background-color: #FF0000;
+}
+
+.burger-menu__line:hover:before {
+    background-color: #FFFFFF;
+}
+
+.burger-menu__line:hover:after {
+    background-color: #FFFFFF;
 }
 
 .search__btn {
@@ -176,6 +180,11 @@ header a {
 
     .header-body__logo-sm {
         display: block;
+    }
+
+    .header-top__item a,
+    .header-top__link {
+        font-size: 16px;
     }
 
 }
