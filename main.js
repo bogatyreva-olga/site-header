@@ -7,14 +7,13 @@ function scrollToUp() {
         // if (path === "/") {
         //     mobileMenuTop.classList.add("red-mobile-menu")
 
-            if (scrollY <= eScroll) {
+            if (scrollY >= eScroll) {
+                mobileMenuTop.classList.remove("white-mobile-menu")
+                mobileMenuTop.classList.add("white-mobile-menu")
+            } else {
+                mobileMenuTop.classList.remove("white-mobile-menu")
                 mobileMenuTop.classList.add("red-mobile-menu")
             }
-            if (scrollY >= eScroll) {
-                mobileMenuTop.classList.remove("red-mobile-menu")
-                mobileMenuTop.classList.add("white-mobile-menu")
-            }
-
     })
 }
 

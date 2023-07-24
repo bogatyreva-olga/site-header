@@ -399,9 +399,17 @@ a {
 
 @media (max-width: 640px) {
     .swiper {
-        height: 343px;
+        max-height: 343px;
         width: calc(100% - 30px);
         border-radius: 5px;
+        /* width: 100%; */
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+
+    .swiper-slide {
+        aspect-ratio: 16/9;
+        background-size: contain;
     }
 
     .swiper-pagination {
