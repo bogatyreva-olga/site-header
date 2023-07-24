@@ -402,7 +402,6 @@ a {
         max-height: 343px;
         width: calc(100% - 30px);
         border-radius: 5px;
-        /* width: 100%; */
         height: auto;
         aspect-ratio: 16/9;
     }
@@ -425,15 +424,17 @@ a {
     }
 
     .banner {
-        height: 100%;
         background: none;
     }
 
+    .banner-content__wrapper {
+        height: 100%;
+    }
+
     .banner-content__photo {
-        background-size: cover;
         display: flex;
         justify-content: end;
-        height: 343px;
+        height: 100%;
         padding: 0 45px;
     }
 
@@ -481,6 +482,7 @@ a {
         color: #ffffff;
         line-height: 58px;
         width: calc(100%/2);
+        text-align: left;
     }
 
     .banner-content__description {
@@ -490,36 +492,6 @@ a {
     .description__wrapper {
         margin: 0;
         border-bottom: none;
-        max-width: 589px;
-    }
-
-    .description__text h2 {
-        color: #000;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: normal;
-        margin-bottom: 20px;
-    }
-
-    .description__text p {
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        color: #272727;
-    }
-
-    .description__link span {
-        color: #000;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-
-    .description__link svg {
-        margin-bottom: 1px;
     }
 
     .swiper-button-prev,
@@ -530,27 +502,25 @@ a {
 }
 
 @media (max-width: 480px) {
-    .description__text p {
-        font-size: 20px;
+    .banner-content__text {
+        font-size: 38px;
+        line-height: 46px;
     }
 
-    .description__link span:hover {
-        color: red;
+    .banner-content__sale {
+        width: 76px;
+        height: 180px;
+        align-items: center;
     }
 
-    .description__link:hover svg path {
-        stroke: red;
-    }
-
-    .description__link a {
-        display: flex;
-        justify-content: end;
-        align-items: end;
+    .banner-content__photo {
+        padding: 0 20px;
     }
 
     .banner-content__sale-text {
-        margin-right: 20px;
+        font-size: 32px;
     }
+
 }
 
 
