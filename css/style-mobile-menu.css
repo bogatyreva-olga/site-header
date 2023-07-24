@@ -31,9 +31,10 @@
         top: -1px;
         height: 190px;
         position: absolute;
-        background: #F43636;
+        background: #F43636 linear-gradient(to top, rgba(0, 0, 0, .2) 20% , #F43636);
         border-bottom-right-radius: 22px;
         border-bottom-left-radius: 22px;
+
     }
 
     .mobile-menu__bottom {
