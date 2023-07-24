@@ -92,6 +92,7 @@
     .mobile-menu-search-form {
         flex-grow: 1;
         background: #F6F6F6;
+        border-radius: 4px;
    }
 
   .search__input {
