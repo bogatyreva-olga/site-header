@@ -1,11 +1,11 @@
-.white-mobile-menu {
-    background-color: #FFFFFF;
-}
+/*.white-mobile-menu {*/
+/*    background-color: #FFFFFF;*/
+/*}*/
 
-.red-mobile-menu {
-    background-color: #F43636;
-    transition-duration: .4s;
-}
+/*.red-mobile-menu {*/
+/*    background-color: #F43636;*/
+/*    transition-duration: .4s;*/
+/*}*/
 
 @media (min-width: 640px) {
     .mobile-menu__bottom {
@@ -28,10 +28,10 @@
     main:before {
         content: "";
         width: 100%;
-        top: -1px;
-        height: 190px;
+        top: -106px;
+        height: 296px;
         position: absolute;
-        background: #F43636 linear-gradient(to top, rgba(0, 0, 0, .2) 20% , #F43636);
+        background: #F43636; /*linear-gradient(to top, rgba(0, 0, 0, .2) 20% , #F43636);*/
         border-bottom-right-radius: 22px;
         border-bottom-left-radius: 22px;
 
@@ -50,13 +50,21 @@
         justify-content: space-between;
     }
 
+    .mobile-menu__img-wrap {
+        height: auto;
+        width: 25px;
+    }
+
     .mobile-menu__item a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 50px;
         justify-content: space-between;
+        height: 50px;
+    }
 
+    .mobile-menu__item a svg:hover defs style {
+        stroke: #F43636;
     }
 
     .mobile-menu__text {
