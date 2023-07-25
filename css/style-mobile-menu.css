@@ -63,7 +63,11 @@
         height: 50px;
     }
 
-    .mobile-menu__item a svg:hover defs style {
+    .mobile-menu__item a svg:hover path {
+        stroke: #F43636;
+    }
+
+    .mobile-menu__item a svg:hover .cls-2 {
         stroke: #F43636;
     }
 
