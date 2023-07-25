@@ -10,6 +10,10 @@ header a {
     font-weight: 200;
 }
 
+.header-body {
+    padding-top: 15px;
+}
+
 .header-body__top {
     align-items: center;
 }
