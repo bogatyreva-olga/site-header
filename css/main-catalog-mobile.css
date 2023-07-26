@@ -5,6 +5,10 @@
 }
 
 @media (max-width: 768px) {
+    .mobile-main-catalog .col-6 {
+        aspect-ratio: 16/9;
+    }
+
     .mobile-main-catalog a {
         display: block;
     }
@@ -23,6 +27,7 @@
         height: 348px;
         display: block;
     }
+
 }
 
 
