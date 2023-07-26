@@ -411,6 +411,10 @@ a {
         background-size: contain;
     }
 
+    .swiper-slide-active {
+        width: 1370px;
+    }
+
     .swiper-pagination {
         display: block;
     }
