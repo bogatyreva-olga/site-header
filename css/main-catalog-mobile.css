@@ -1,0 +1,28 @@
+@media (min-width: 768px ) {
+    .mobile-main-catalog {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-main-catalog a {
+        display: block;
+    }
+
+    .mobile-main-catalog h2 {
+        line-height: 32px;
+    }
+
+    .mobile-main-catalog .row .col-6 {
+        flex: 0 0 auto;
+    }
+
+    #mps-m {
+        background: url("images/main-photo-mobile.jpg") no-repeat center center !important;
+        background-size: cover !important;
+        height: 348px;
+        display: block;
+    }
+}
+
+
