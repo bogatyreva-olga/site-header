@@ -27,7 +27,13 @@
         height: 348px;
         display: block;
     }
+}
 
+@media (max-width: 480px) {
+    .mobile-main-catalog h2 {
+       font-size: 20px !important;
+        word-break: break-word;
+    }
 }
 
 
