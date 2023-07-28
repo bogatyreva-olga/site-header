@@ -6,16 +6,15 @@ function scrollToUp() {
     window.addEventListener("scroll", (evt) => {
             if (path === "/") {
                 mobileMenuTop.classList.add("red-mobile-menu")
+                if (scrollY >= eScroll) {
+                    mobileMenuTop.classList.remove("red-mobile-menu")
+                    mobileMenuTop.classList.add("white-mobile-menu")
+                } else {
+                    mobileMenuTop.classList.add("red-mobile-menu")
+                    mobileMenuTop.classList.remove("white-mobile-menu")
+                }
             } else {
                 mobileMenuTop.classList.add("white-mobile-menu")
-            }
-            if (scrollY <= eScroll) {
-                mobileMenuTop.classList.remove("white-mobile-menu")
-                mobileMenuTop.classList.add("red-mobile-menu")
-
-            } else {
-                mobileMenuTop.classList.add("white-mobile-menu")
-                mobileMenuTop.classList.remove("red-mobile-menu")
             }
         }
     )
@@ -24,4 +23,5 @@ function scrollToUp() {
 document.addEventListener('DOMContentLoaded', () => {
     scrollToUp();
 });
+
 
