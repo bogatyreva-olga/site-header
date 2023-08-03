@@ -36,6 +36,10 @@
         border-bottom-left-radius: 22px;
     }
 
+    .color-red:before {
+        width: 0;
+    }
+
     .mobile-menu__bottom {
         position: fixed;
         bottom: 0;
@@ -110,15 +114,15 @@
         flex-grow: 1;
         background: #F6F6F6;
         border-radius: 4px;
-   }
+    }
 
-  .search__input {
-      background: #F6F6F6;
-      border: none;
-  }
+    .search__input {
+        background: #F6F6F6;
+        border: none;
+    }
 
-  .search__btn {
-      border: none;
-      width: 68px;
-  }
+    .search__btn {
+        border: none;
+        width: 68px;
+    }
 }
