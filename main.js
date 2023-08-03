@@ -26,7 +26,7 @@ let removeRedClass = () => {
     let main = document.querySelector("main");
     if (path !== "/") {
         mobileMenuTop.classList.add("white-mobile-menu");
-        main.classList.add("color-red")
+        main.classList.add("remove-color-red")
     }
 }
 

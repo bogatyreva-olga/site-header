@@ -11,6 +11,7 @@
     .mobile-menu__bottom {
         display: none;
     }
+
     .mobile-menu__top {
         display: none;
     }
@@ -31,12 +32,12 @@
         top: -106px;
         height: 296px;
         position: absolute;
-        background: #F43636; /*linear-gradient(to top, rgba(0, 0, 0, .2) 20% , #F43636);*/
+        background: #F43636;
         border-bottom-right-radius: 22px;
         border-bottom-left-radius: 22px;
     }
 
-    .color-red:before {
+    .remove-color-red:before {
         width: 0;
     }
 
@@ -90,6 +91,19 @@
         z-index: 999;
     }
 
+    .term-top-info {
+        background: #f43636;
+        color: #fff;
+        height: 45px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 45px;
+        text-align: center;
+        position: relative;
+        z-index: 5;
+    }
+
     .red-mobile-menu {
         background-color: #F43636;
     }
@@ -124,5 +138,12 @@
     .search__btn {
         border: none;
         width: 68px;
+    }
+}
+
+@media (max-width: 768px) {
+    .term-top-info {
+        border-radius: 5px;
+        margin: 5px 0 15px 0;
     }
 }
