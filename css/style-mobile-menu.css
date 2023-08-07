@@ -1,12 +1,3 @@
-/*.white-mobile-menu {*/
-/*    background-color: #FFFFFF;*/
-/*}*/
-
-/*.red-mobile-menu {*/
-/*    background-color: #F43636;*/
-/*    transition-duration: .4s;*/
-/*}*/
-
 @media (min-width: 640px) {
     .mobile-menu__bottom {
         display: none;

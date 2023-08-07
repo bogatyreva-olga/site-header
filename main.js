@@ -13,8 +13,6 @@ function scrollToUp() {
                     mobileMenuTop.classList.add("red-mobile-menu")
                     mobileMenuTop.classList.remove("white-mobile-menu")
                 }
-            } else {
-                mobileMenuTop.classList.add("white-mobile-menu")
             }
         }
     )
