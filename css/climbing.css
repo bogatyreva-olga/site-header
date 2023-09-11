@@ -40,6 +40,7 @@
         color: #FFFFFF;
         text-decoration: underline;
         text-underline-offset: 3px;
+        font-size: 14px;
     }
 
     .climbing-info p:first-child {
