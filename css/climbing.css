@@ -12,6 +12,7 @@
         margin-top: 10px;
         padding: 15px 15px;
         color: #FFFFFF;
+
     }
 
     .climbing-container {
@@ -20,6 +21,15 @@
         width: 100%;
         background-color: #F23636;
         border-radius: 5px;
+        max-height: 130px;
+    }
+
+    .climbing-img {
+        height: 126px;
+        width: 160px;
+        max-width: 150px;
+        background: url("../climbing-section/climber.png") no-repeat center center;
+        background-size: cover;
     }
 
     .climbing-info {
@@ -34,12 +44,12 @@
 
     .climbing-info p:first-child {
         font-weight: 700;
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .climbing-info p:nth-child(2) {
         font-weight: 400;
-        font-size: 16px;
+        font-size: 14px;
         text-transform: lowercase;
         margin-bottom: 10px;
     }
